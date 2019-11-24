@@ -3,6 +3,8 @@ This is the set of C++ solution and test codes for "Cracking the Coding Intervie
 
 If you would like to test your program like competitive programming, this is what I made for 🚀.
 
+## How to use it
+
 Each problem has a directory, and there are three C++ files "problem.cpp", "solution.cpp", and "tester.cpp".
 
 - In the "problem.cpp", You can type your own solution, and it will automatically test the code when you compile and execute it.
