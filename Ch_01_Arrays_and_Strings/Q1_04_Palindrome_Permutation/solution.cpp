@@ -15,24 +15,24 @@ Note:
 
 // If you need to write outside function, write below.
 #include <vector>
-bool checkMaxOneOdd(vector<int> table)
+bool check_max_one_odd(vector<int> table)
 {
-    bool foundOdd = false;
+    bool found_odd = false;
     for (int count : table)
     {
         if (count % 2 == 1)
         {
-            if (foundOdd)
+            if (found_odd)
             {
                 return false;
             }
-            foundOdd = true;
+            found_odd = true;
         }
     }
     return true;
 }
 
-int getCharNumber(char c)
+int get_char_number(char c)
 {
     int a = (int)'a';
     int z = (int)'z';
@@ -44,12 +44,12 @@ int getCharNumber(char c)
     return -1;
 }
 
-vector<int> buildCharFrequencyTable(string const &phrase)
+vector<int> build_char_frequency_table(string const &phrase)
 {
     vector<int> table((int)'z' - (int)'a' + 1);
     for (char c : phrase)
     {
-        int x = getCharNumber(c);
+        int x = get_char_number(c);
         if (x != -1)
         {
             table[x]++;
@@ -62,8 +62,8 @@ vector<int> buildCharFrequencyTable(string const &phrase)
 bool palindrome_permutation(string const &phrase)
 {
     // Write your answer below.
-    vector<int> table = buildCharFrequencyTable(phrase);
-    return checkMaxOneOdd(table);
+    vector<int> table = build_char_frequency_table(phrase);
+    return check_max_one_odd(table);
     // Write your answer above.
 }
 
@@ -76,7 +76,7 @@ Note:
 
 // // If you need to write outside function, write below.
 // #include <vector>
-// int getCharNumber(char c)
+// int get_char_number(char c)
 // {
 //     int a = (int)'a';
 //     int z = (int)'z';
@@ -92,25 +92,25 @@ Note:
 // bool palindrome_permutation(string const &phrase)
 // {
 //     // Write your answer below.
-//     int countOdd = 0;
+//     int count_odd = 0;
 //     vector<int> table((int)'z' - (int)'a' + 1);
 //     for (char c : phrase)
 //     {
-//         int x = getCharNumber(c);
+//         int x = get_char_number(c);
 //         if (x != -1)
 //         {
 //             table[x]++;
 //             if (table[x] % 2 == 1)
 //             {
-//                 countOdd++;
+//                 count_odd++;
 //             }
 //             else
 //             {
-//                 countOdd--;
+//                 count_odd--;
 //             }
 //         }
 //     }
-//     return countOdd <= 1;
+//     return count_odd <= 1;
 //     // Write your answer above.
 // }
 
