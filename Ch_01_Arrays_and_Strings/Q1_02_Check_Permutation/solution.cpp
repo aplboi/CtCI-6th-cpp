@@ -4,7 +4,6 @@ Given two strings, write a method to decide if one is a permutation of the other
 */
 
 #include <iostream>
-
 using namespace std;
 
 /*
@@ -13,6 +12,9 @@ Time: O(n log n)
 Space: O(1)
 Note:
 */
+
+// If you need to write outside function, write below.
+// If you need to write outside function, write above.
 
 bool check_permutation(string &s, string &t)
 {
@@ -37,6 +39,9 @@ Time: O(n)
 Space: O(1)
 Note:
 */
+
+// // If you need to write outside function, write below.
+// // If you need to write outside function, write above.
 
 // bool check_permutation(string const &s, string const &t)
 // {

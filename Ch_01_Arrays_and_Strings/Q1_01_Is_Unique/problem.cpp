@@ -4,8 +4,10 @@ Implement an algorithm to determine if a string has all unique characters. What 
 */
 
 #include <iostream>
-
 using namespace std;
+
+// If you need to write outside function, write below.
+// If you need to write outside function, write above.
 
 bool is_unique(string str)
 {

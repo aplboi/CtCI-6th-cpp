@@ -4,7 +4,6 @@ Problem Description
 */
 
 #include <iostream>
-
 using namespace std;
 
 /*
@@ -13,6 +12,9 @@ Time: O(N)
 Space: O(1)
 Note:
 */
+
+// If you need to write outside function, write below.
+// If you need to write outside function, write above.
 
 string urlify(string &str, int trueLength)
 {

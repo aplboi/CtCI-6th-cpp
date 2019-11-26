@@ -7,8 +7,10 @@ Output: "Mr%20John%20Smith"
 */
 
 #include <iostream>
-
 using namespace std;
+
+// If you need to write outside function, write below.
+// If you need to write outside function, write above.
 
 string urlify(string str, int trueLength)
 {

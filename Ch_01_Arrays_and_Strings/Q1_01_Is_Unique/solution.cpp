@@ -15,6 +15,9 @@ Space: O(n)
 Note:
 */
 
+// If you need to write outside function, write below.
+// If you need to write outside function, write above.
+
 bool is_unique(string const &str)
 {
     // Write your answer below.
@@ -46,6 +49,9 @@ Space: O(n)
 Note: The space complexity is 8 times as small as Solution 1.
 */
 
+// // If you need to write outside function, write below.
+// // If you need to write outside function, write above.
+
 // bool is_unique(string const &str)
 // {
 //     // Write your answer below.
@@ -70,6 +76,9 @@ Space: O(1)
 Note: Make sure you can modify the string.
 */
 
+// // If you need to write outside function, write below.
+// // If you need to write outside function, write above.
+
 // bool is_unique(string &str)
 // {
 //     sort(str.begin(), str.end());
@@ -89,6 +98,9 @@ Time: O(n^2)
 Space: O(1)
 Note: If you are not allowed to use additional data structures and to modify the string, this is the best approach.
 */
+
+// // If you need to write outside function, write below.
+// // If you need to write outside function, write above.
 
 // bool is_unique(string const &str)
 // {

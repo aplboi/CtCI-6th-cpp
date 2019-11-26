@@ -4,13 +4,15 @@ Given a string, write a function to check if it is a permutation of a palindrome
 */
 
 #include <iostream>
-
 using namespace std;
 
-bool palindrome_permutation()
+// If you need to write outside function, write below.
+// If you need to write outside function, write above.
+
+bool palindrome_permutation(string phrase)
 {
     // Write your answer below.
-    return 0;
+    return false;
     // Write your answer above.
 }
 
