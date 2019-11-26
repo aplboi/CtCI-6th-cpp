@@ -11,6 +11,12 @@ Each problem has a directory, and there are three C++ files "problem.cpp", "solu
 - In the "solution.cpp", You can find several solutions optimized into C++ from Java code in the book. You can also run it "problem.cpp".
 - In the "tester.cpp", there are test codes using C++ unittest framework, "Catch2".
 
+## About Coding
+Most structure of programs follow the book's Java code, but some points are different.
+- The Java's camelCase is changed into snake_case. 
+- The name of the main function has the problem's name. This is not consistent with the book's code. For example, problem 1.1's name of the main function is "isUniqueChars" in the book, but it is "is_unique" in this directory.
+
+
 ## References
 - CtCI main repository
 https://github.com/careercup/CtCI-6th-Edition
