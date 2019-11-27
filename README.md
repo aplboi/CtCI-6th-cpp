@@ -24,7 +24,7 @@ https://github.com/careercup/CtCI-6th-Edition
 https://github.com/careercup/CtCI-6th-Edition-cpp
 
 ## 日本人向け
-このディレクトリは、"Cracking the Coding Interview 6th Edition" (邦題: 世界で闘うプログラミングを鍛える本 ~コーディング面接189問とその解法~)の解答例とテストコードをC++で実装したものです。
+このディレクトリは、"Cracking the Coding Interview 6th Edition" (邦題: 世界で闘うプログラミングを鍛える本 コーディング面接189問とその解法)の解答例とテストコードをC++で実装したものです。
 
 ## 参考リンク
 - アマゾン(英語版)
